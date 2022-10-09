@@ -1,6 +1,7 @@
-* box{
-width: min-content;
-height: fit-content;
+* .box{
+width: 100px;
+height: 100px;
 background-color: white
+border-style: solid;
 }
 
