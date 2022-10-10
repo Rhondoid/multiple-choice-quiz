@@ -1,16 +1,13 @@
-* {
+*  {
     margin: 0;
     padding: 0;
+    flex-wrap: flow;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
 
-nav{
-    background-color: bisque;
-    display: flex; -ms-flex-align: end;
-}
 
-section{
+.container{
     box-sizing: border-box;
     flex-flow: nowrap;
     background-color: pink;
@@ -18,3 +15,9 @@ section{
 
 }
 
+.buttons{
+    margin: auto;
+    padding: 20px;
+    align-items:center
+
+}
