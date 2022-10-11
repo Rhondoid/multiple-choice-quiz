@@ -9,7 +9,7 @@ var clock="timer"
 var queStart="Start Quiz";
 
 
-const queStartBtn =document.getElementsByName("Start Quiz");
+var startQuiz =document.getElementsByName("Start Quiz");
 const queQuestions=document.getElementsByName ("questions");
 const viewHighScores =document.getElementsByName("View High Scores");
 const player=document.getElementsByName("Enter Initials");
