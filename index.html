@@ -5,41 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/CSS/style.css">
-
+    
     <title>Document</title>
 </head>
-<nav>
-    
-</nav>
+
 <body>
-    
+    <header>
+        <button>View high scores</button>
+        <p id="Time">Timer</p>
+
+    </header>
 <div class="container"> 
-    <button>View high scores</button>
-    <button type="reset">Time 0</button> 
     <h1>Coding Quiz Challenge</h1>
         <p>
             Try to answer the following code-related questions within the time limit.
             Keep in mind that incorrect answers will penalize your score/time
             by ten seconds.
         </p>
-    
-    <!-- this will store the buttons -->
-    <div class="content" id="buttons"> 
-        <button type="submit">Start Quiz</button>
-        <button type="submit">Submit</button>
-    </div>  
-
-    <!-- this will store the questions --> 
-    <div class="questions" id="questions"> 
-        <div id="question-text">Question Text</div>
-
-     <!-- this will store the answers -->
-    <div class="answers" id="answers"> 
-        <div id="answer-text">Answer Text</div>
-    </div > 
-    <div>
-
-    </div>      
-</div>
-</body>
-</html>
+        
+        <!-- this will store the buttons -->
+        <div class="content" id="buttons"> 
+            <button type="submit">Start Quiz</button>
+            <button type="submit">Submit</button>
+        </div>  
+        
+        <!-- this will store the questions --> 
+        <div class="questions" id="questions"> 
+            <div id="question-text">Question Text</div>
+            
+            <!-- this will store the answers -->
+            <div class="answers" id="answers"> 
+                <div id="answer-text">Answer Text</div> 
+            </div>
+            <!-- this will store and access the scores -->
+            <div class="container" id="View High Scores"> 
+                <div id="All Done!">All Done!</div>
+                <div id="Your Final Score">Your Final Score </div>
+                <div id="Enter Initials">Enter Initials</div>
+                
+            </div>
+            <script src="script.js"></script>
+        </body>
+        </html>
