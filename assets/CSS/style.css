@@ -5,9 +5,11 @@
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+header{
+    display: flex; 
+}
 
-
-.container{
+.start{
     box-sizing: border-box;
     flex-flow: nowrap;
     background-color: pink;
@@ -15,9 +17,13 @@
 
 }
 
-.buttons{
+.questions{
+    flex-direction: column;
     margin: auto;
     padding: 20px;
     align-items:center
 
+}
+.submit{
+    flex-direction: column;
 }

@@ -1,42 +1,60 @@
 //Let the game begin
 
-var questionOne="What is Brazil's top commodity?";
-var questionOneOptions="a,b,c,d"
-var questionTwo="What does Starbucks sell the most of?";
-var questionThree= "What drink do US citizens prefer?";
-var questionFour="What do many people prefer in their coffee?";
 var questions=["One", "Two", "Three", "Four"];
-var answerText="Coffee";
+var answer="Coffee";
 var incorrectAnswer="Wrong!"
+var score=0;
+var clock="timer"
 
 var queStart="Start Quiz";
-var queResponse="Submit";
+
 
 const queStartBtn =document.getElementsByName("Start Quiz");
-const queResponse="Submit";
 const queQuestions=document.getElementsByName ("questions");
 const viewHighScores =document.getElementsByName("View High Scores");
-const resetBtn =document.getElementsByName("Time 0");
-const scoreBtn=document.getElementsByName("Enter Initials");
+const player=document.getElementsByName("Enter Initials");
 
-//Hiding all but start of game
-const hide={
+
+// const hide={
   
-}
-const show={
+// }
+// const show={
 
+// }
+var questions =[
+    {
+        "One": "What is Brazil's top commodity?\n\(a) soybeans\n\(b) tea\n\
+        (c) juice\n\(d)coffee",
+        answer: "coffee"
+    },
+    {
+        "Two": "What does Starbucks sell the most of?\n\
+        (a) Soda \n\(b)Tea\n\(c) Juice\n\(d)coffee",
+        answer:"coffee"
+    },
+    {
+        "Three": "What drink do US citizens prefer?\n\
+        (a)bottled water\n\ (b)coffee\n\(c)fruit beverage\n\(d)milk",
+        answer:"coffee"
+    },
+    {
+        "four": "What is the focus of this quiz?\n\(a)soda\n\(b)coffee\n\(c)water\n\(d)cream",
+        answer:"coffee"
+    }
+]
+for (var i=0; i< questions.length; i++) {
+ 
 }
-
-for (let i=0; i< questions.length; i++) {
-
-}
-if (questions= "Coffee") {
-    questionTwo
+if (response==questions[i].answer) {
+    score++;
+    alert ("Correct");
     
 } else {
-    "Wrong!", "timer -10 points"
+    "Wrong!", timer -= 10;
     
 }
+
+
 
 queStartBtn.addEventListener(click, "Start Quiz");
 "Submit".addEventListener(click, "Submit");
