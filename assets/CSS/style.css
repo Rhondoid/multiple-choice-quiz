@@ -1,32 +1,46 @@
 *  {
     margin: 0;
     padding: 0;
-    
     gap: 12px;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+
 header{
-    display: inline-flex;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
 }
 
-.start{
+.start {
+    position: relative;
+    align-items:center;
     box-sizing: border-box;
     background-color: pink ;
     padding: 20px;
-
 }
 
-.questions{
-    flex-flow: column;
+.parent{
     position: relative;
-    align-items:center
+    display: flexbox space-between;
     background-color: light-blue;
-
-
 }
+
+.child {
+    margin: 10px;
+}
+
 .submit{
     flex-direction: column;
     padding-inline-end: 20px;
 }
+
+@media screen and (min-width: 500px) {
+    body {
+      color: black;
+    }
+  }
+  
+  @media screen and (min-width: 760px) {
+  }
+  
