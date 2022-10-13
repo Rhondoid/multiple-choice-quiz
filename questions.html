@@ -10,8 +10,10 @@
 
 <body>
     <header>
-        
-        <button>View high scores</button>
+
+        <a href=highscore.html">
+            <button>View high scores</button>
+        </a>
         <p id="Time">Timer: 
             <span id='countdown'></span>
         </p>
@@ -25,20 +27,20 @@
 
         <div class="align-vertical">
             <div class="child">
-                <button>a. Soybeans</button>
+                <button id="answer-a" onclick="checkIfCorrect(this)"></button>
             </div>
             <div class="child">
-                <button>a. Soybeans</button>
+                <button id="answer-b" onclick="checkIfCorrect(this)"></button>
             </div>
             <div class="child">
-                <button>a. Soybeans</button>
+                <button id="answer-c" onclick="checkIfCorrect(this)"></button>
             </div>
             <div class="child">
-                <button>a. Soybeans</button>
+                <button id="answer-d" onclick="checkIfCorrect(this)"></button>
             </div>
         </div>
     </div>
     </div>
-    <script src="script.js"></script>
+    <script src="questions.js"></script>
 </body>
 </html>
