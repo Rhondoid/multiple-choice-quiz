@@ -16,7 +16,7 @@ header{
     position: relative;
     align-items:center;
     box-sizing: border-box;
-    background-color: pink ;
+    background-color: white ;
     padding: 20px;
 }
 
@@ -30,10 +30,12 @@ header{
     margin: 10px;
 }
 
+
 .submit{
     flex-direction: column;
     padding-inline-end: 20px;
 }
+
 
 @media screen and (min-width: 500px) {
     body {
