@@ -2,6 +2,7 @@
 This repo features an interactive multiple-choice quiz.
 
 The program was built to build and progress my Javascript skills.
+![image](https://user-images.githubusercontent.com/110504360/196062743-dd8080ab-6bf2-4a16-825b-7b49a63ce82e.png)
 
 
 ## Usage
