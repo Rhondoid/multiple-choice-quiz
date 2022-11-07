@@ -16,3 +16,5 @@ scoreTextElement.textContent = "HIGH SCORE: " + highScoreNumber;
 enterInitialsElement.textContent ="Enter Initials: ";
 
 // Please recommend next steps. Unsure how to display Initials = score
+
+function addItem (score)
